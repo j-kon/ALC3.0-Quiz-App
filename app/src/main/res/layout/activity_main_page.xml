@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainPage">
+
+    <!-- Nested Linear Layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+        <!-- Section 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="2dp"
+                android:src="@drawable/header" />
+        </LinearLayout>
+
+        <!-- End of Section 1 -->
+
+        <!-- Section 2 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="14dp">
+
+            <TextView
+                android:id="@+id/quiz"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/zillaslab3"
+                android:text="Start Quiz"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/facts"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/zillaslab3"
+                android:text="Quick Facts"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/progress"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/zillaslab3"
+                android:text="Progress"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/news"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/zillaslab3"
+                android:text="News Feed"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- End of Section 2 -->
+
+        <!-- Section 3 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/people"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="2"
+                android:src="@drawable/message" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/message"
+                android:layout_weight="1"
+                android:fontFamily="@font/zillaslab1"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Take time to learn about the continent of Africa. There is a lot to learn and love about Africa."
+                android:textColor="#fff"
+                android:textSize="12dp" />
+        </LinearLayout>
+        <!-- End of Section 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <!-- Section 4 -->
+
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="12dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/welcome"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"/>
+                </LinearLayout> -->
+
+                <!-- End of Section 4 -->
+
+                <!-- Section 5 -->
+
+                <!--<LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1.5"
+                     android:layout_marginLeft="12dp"
+                     android:layout_marginRight="12dp"
+                     android:layout_marginBottom="4dp">
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:textSize="12sp"
+                         android:fontFamily="@font/zillaslab1"
+                         android:textColor="#4c4c4c"
+                         android:text="Jambo Africa is a learning platform for Android Users. With an interactive quiz, quick facts and news feed, users can learn about Africa on the go, at their own convenience. Information about Africa including it's people, culture and resources is shared all over the App. The goal is to help people across the globe, to understand, appreciate and relate with the beautiful continent of Africa. Just so you know, Karibu means Welcome in Swahili! "/>
+                 </LinearLayout> -->
+
+                <!-- End of Section 5 -->
+
+                <!-- Section 6 -->
+
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/background_gradient"
+                        android:scaleType="centerCrop"/>
+                </LinearLayout> -->
+
+
+                <!-- End of Section 6 -->
+
+
+                <!-- Section 10 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/zillaslab3"
+                        android:paddingLeft="18dp"
+                        android:paddingTop="8dp"
+                        android:text="Hi! What's your name?"
+                        android:textColor="#0060ff"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+
+                <!-- End of Section 10 -->
+
+                <!-- Section 11 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <EditText
+                        android:id="@+id/user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#e6e6e6"
+                        android:fontFamily="@font/zillaslab1"
+                        android:nextFocusUp="@id/user_name"
+                        android:nextFocusLeft="@id/user_name"
+                        android:hint="Enter Your Names Please"
+                        android:paddingLeft="20dp"
+                        android:textColorHint="#4d4d4d"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <!-- End of Section 11 -->
+
+                <!-- Section 7 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/zillaslab3"
+                        android:paddingLeft="12dp"
+                        android:paddingTop="8dp"
+                        android:text="What would you like to learn?"
+                        android:textColor="#0060ff"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <!-- End of Section 7 -->
+
+                <!-- Section 8 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/arts"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Arts"
+                        android:textColor="#333"
+                        android:textSize="10sp"
+                        android:onClick="categorySelection"/>
+
+                    <CheckBox
+                        android:id="@+id/biz"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Business"
+                        android:textColor="#333"
+                        android:textSize="10sp"
+                        android:onClick="categorySelection"/>
+
+                    <CheckBox
+                        android:id="@+id/culture"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Culture"
+                        android:textColor="#333"
+                        android:textSize="10sp"
+                        android:onClick="categorySelection"/>
+
+                    <CheckBox
+                        android:id="@+id/geo"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Geography"
+                        android:textColor="#333"
+                        android:textSize="10sp"
+                        android:onClick="categorySelection"/>
+
+                </LinearLayout>
+
+                <!-- End of Section 8 -->
+
+                <!-- Section 9 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/histo"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="History"
+                        android:textColor="#333"
+                        android:textSize="10sp"
+                        android:onClick="categorySelection"/>
+
+                    <CheckBox
+                        android:id="@+id/leadership"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Leadership"
+                        android:textColor="#333"
+                        android:textSize="10sp"
+                        android:onClick="categorySelection"/>
+
+                    <CheckBox
+                        android:id="@+id/tech"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Tech"
+                        android:textColor="#333"
+                        android:textSize="10sp"
+                        android:onClick="categorySelection"/>
+
+                    <CheckBox
+                        android:id="@+id/others"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Others"
+                        android:textColor="#333"
+                        android:textSize="10sp"
+                        android:onClick="categorySelection"/>
+
+                </LinearLayout>
+
+                <!-- End of Section 9 -->
+
+
+                <!-- Section 10 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/start_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="12dp"
+                        android:layout_weight="2"
+                        android:visibility="invisible"
+                        android:background="@drawable/start_button"
+                        android:padding="8dp"
+                        android:onClick="startQuiz"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <!-- End of Section 10 -->
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
