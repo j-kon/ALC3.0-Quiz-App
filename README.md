@@ -21,6 +21,6 @@ The App has three main sections. The Quiz, Quick Facts Cards and News Feed. As i
 ![My image](http://bit.ly/2tPNRTc)
 
 
-## Links to the APK files
+## The Apk File for the Project
 
-https://drive.google.com/file/d/1q_IgAawFzONp0xIK-u_ttsHflXSVU9Wu/view?usp=sharing
+https://t.co/hqH6lyGOgv
