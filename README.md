@@ -9,12 +9,8 @@ This project is a task given out by Udacity for the Android Basics Learners. It 
 ## Description
 The App has three main sections. The Quiz, Quick Facts Cards and News Feed. As it is meant to be a simple project, there is no database configurations involved. Just  a simple interactive App with multiple views and limited content.
 
-
 ## Authors
 * **Leonard Muia** - *Developer & Designer* 
-
-
-
 
 ## The App Mock/Idea
 
