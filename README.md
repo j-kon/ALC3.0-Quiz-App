@@ -14,7 +14,7 @@ The App has three main sections. The Quiz, Quick Facts Cards and News Feed. As i
 
 ## The App Mock/Idea
 
-![My image](http://bit.ly/2tPNRTc)
+<img src="https://user-images.githubusercontent.com/18761569/45032346-3aadb880-b017-11e8-90c4-dab58f206fcb.jpg" width="280"/> <img src="https://user-images.githubusercontent.com/18761569/45032357-3bdee580-b017-11e8-810b-17bdb6ffd534.jpg" width="280"/> <img src="https://user-images.githubusercontent.com/18761569/45032361-3d101280-b017-11e8-9a89-ba61759c7795.jpg" width="280"/> 
 
 
 ## The Apk File for the Project
